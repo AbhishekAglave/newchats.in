@@ -1,0 +1,62 @@
+  body{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 900px;
+  }
+  
+  img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+  display: none;
+  }
+  .disclaimer{
+      display: none;
+  }
+  
+  h1{
+    color: black;
+    text-align: center;
+  }
+  h3{
+    font-size: 25px;
+    text-align: center;
+  }
+
+
+  input[type=text], input[type=tel], input[type=datetime-local], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0fd319;
+  }
+  
+  .box {
+    width: 50%;
+    margin: auto;
+    border-radius: 8px;
+    background-color: #eaf2fa;
+    padding: 15%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .developer {
+    font-size: 10px;
+    font-weight: 500px;
+    
+  }
