@@ -11,7 +11,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
   <title>WhatsApp Chat</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="index.js"></script>
 </head>
 
 <body>
@@ -19,7 +18,7 @@
   <h3>WhatsApp Chat</h3>
 
   <div class="box">
-    <form>
+    <form id="form">
 
 
       <label for="phone">Mobile<em>*</em></label>
@@ -32,7 +31,9 @@
       <input type="submit" value="Send Message" onclick="msg()">
       <br><br>
 
-      <div class="visitCounter"><p>Page views: <em id="count">0</em></p></div>
+      <div class="visitCounter">
+        <p>Page views: <em id="count">0</em></p>
+      </div>
       <div class="developer">
         <p>Developer: <a href="/portfolio">Abhishek Patil</a></p>
       </div>
@@ -40,18 +41,7 @@
 
     </form>
   </div>
-  <script>
-    const countEl = document.getElementById("count");
-    countvisits();
-
-    function countvisits() {
-      fetch("https://api.countapi.xyz/update/newchats.in/newchats.in/?amount=1")
-        .then((res) => res.json())
-        .then((res) => {
-          countEl.innerHTML = res.value;
-        });
-    }
-  </script>
+  <script src="index.js"></script>
 </body>
 
 </html>
