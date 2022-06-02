@@ -24,6 +24,6 @@ function countvisits() {
   fetch("https://api.countapi.xyz/update/newchats.in/newchats.in/?amount=1")
   .then((res) => res.json())
   .then((res) => {
-    countEl.innerHTML = res.value;
+    countEl.textContent = res.value;
   });
 }
