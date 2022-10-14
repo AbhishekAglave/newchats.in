@@ -46,14 +46,12 @@
   }
   
   .box {
-    width: 50%;
+    width: 60%;
     max-width: 300px;
     margin: auto;
     border-radius: 8px;
     background-color: #eaf2fa;
-    padding: 60px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 40px;
   }
 
   .developer, .visitCounter {
