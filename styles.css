@@ -47,10 +47,11 @@
   
   .box {
     width: 50%;
+    max-width: 300px;
     margin: auto;
     border-radius: 8px;
     background-color: #eaf2fa;
-    padding: 15%;
+    padding: 60px;
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -63,4 +64,15 @@
   em{
     color: red;
     font-style: normal;
+  }
+  .app-icon{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+  }
+
+  .download-link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
   }
